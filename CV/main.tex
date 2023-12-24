@@ -1,0 +1,469 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[12pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{newunicodechar}
+\newunicodechar{￥}{\textyen}
+\DeclareTextCommandDefault{\textyen}{%
+  \vphantom{Y}%
+  {\ooalign{Y\cr\hidewidth\yenbars\hidewidth\cr}}%
+}
+
+\newcommand{\yenbars}{%
+  \vbox{
+     \hrule height.1ex width.4em
+     \kern.15ex
+     \hrule height.1ex width.4em
+     \kern.3ex
+  }%
+}
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+\usepackage{multicol}
+
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Esther}{XU FEI}
+% \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+%\address{Ames 317, Johns Hopkins University}{Baltimore}{MD 21210}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+\usepackage[sort,comma,authoryear,round]{natbib}
+%\addbibresource{publications}
+\newcommand*{\customcventry}[7][.25em]{
+  \begin{tabular}{@{}l} 
+    {\bfseries #4} {| #5}
+  \end{tabular}
+\\
+  \begin{tabular}{@{}l} 
+    { #3}
+  \end{tabular}
+  % Orginial right part settings
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     { #2}
+  \end{tabular}
+  \ifx&#7&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#7%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\newcommand*{\customcvproject}[4][.25em]{
+%   \vfill\noindent
+  \begin{tabular}{@{}l} 
+    {\bfseries #2} { #3}
+  \end{tabular}
+
+
+      
+
+  \ifx&#4&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#4%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+  
+
+  
+  
+  
+ \newcommand*{\award}[3][.25em]{
+%   \vfill\noindent
+
+    { #2} {| #3}
+
+  % move it to the right
+
+    
+
+  \par\addvspace{#1}}
+
+\setlength{\tabcolsep}{12pt}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace*{-18mm}
+
+\begin{center}
+\begin{tabular}{ c c c c }
+ \faEnvelopeO\enspace estherxu@jhu.edu &  \faMobile\enspace 443-714-9400 &  \faLinkedinSquare\enspace  \href{https://www.linkedin.com/in/estherxufei/}{estherxufei} & \faGithub\enspace \href{https://github.com/Estherrrrrxu}{Estherrrrrxu} \\  
+\end{tabular}
+\end{center}
+% change this part to research expertise
+\section{Professional summary}
+{\begin{itemize}
+  \item Ph.D. candidate with 6+ years in modeling, uncertainty analysis, data mining, and programming
+  \item Highly skilled using statistical learning to interpret data by combining data-driven and physics-based models
+  \item Excellent interdisciplinary communicator as evidenced by 10+ conference presentations
+  \item Great time management skills: pursued 3 academic degrees and serving as a student leader concurrently
+\end{itemize}
+
+\section{Skills}
+
+\begin{tabular}{p{0.12\linewidth}  p{0.8\linewidth}}
+\textbf{Programming:} & Python, SQL, R, MatLab, version control (Git), SLURM, \LaTeX, shell script (bash)\\
+\textbf{Statistical:} & Time series analysis (ARIMA, ICA), dimension reduction (PCA), manifold learning (Isomap, diffusion map, UMAP, t-SNE), stochastic processes (MCMC, Gaussian Process), state space models (particle filters, particle MCMC)\\
+\textbf{Software:} &ParFlow, Gdal/ArcGIS/QGIS, Google Earth \\
+\textbf{Language:}& Chinese (native), English (fluent), and Spanish (intermediate)
+\end{tabular}
+
+
+\section{Education}
+{\customcvproject{Ph.D. in Physical Hydrology}{| Johns Hopkins University (JHU) | May 2024}{}}
+Baltimore, MD | GPA: 3.92 / 4.00
+\begin{itemize}
+  \item  \textbf{M.Eng.} in Environmental Management and Economics, Department of Environmental Health and Engineering
+  \item \textbf{M.Eng.} in Statistics and Statistical Learning, Department of Applied Mathematics and Statistics
+\end{itemize}
+
+
+{\customcvproject{M.S. in Hydrology}{| New Mexico Tech (NMT) | Aug. 2018}
+{}}
+Socorro, NM | GPA: 3.93 / 4.00
+\begin{itemize}
+  \item \textbf{Thesis} Estimation of Focused Recharge for New Mexico Using a Soil-Water-Balance Model: PyRANA
+  \item Minor in Operational Research and Statistics
+\end{itemize}
+
+{\customcvproject{B.Eng. in (Petroleum) Resources Exploration Engineering}{| Yangtze University | Aug. 2017}
+{}}
+Wuhan, Hubei, China | Dual degree program with NMT
+
+{\customcvproject{B.S. in Earth Sciences with Geology option}{| NMT | Aug. 2016}
+{}
+}
+Socorro, NM | GPA: 3.91 / 4.00
+\begin{itemize}
+  \item Minor in Mathematics
+\end{itemize}
+
+\section{Working Experiences}
+
+% Amazon intern
+{\customcvproject{Applied Scientist Intern, Prime Machine Learning, Amazon.com, Inc.}{}{}
+}
+Seattle, WA | May 2023 – Aug. 2023
+\begin{itemize}
+\item To be added
+ \end{itemize}
+% ==============================================
+\section{Research Projects}
+
+
+
+
+% GPR
+{\customcvproject{Theoretical optimal benchmarking in time series classification}{}{}}
+Baltimore, MD | May 2022 – Present
+\begin{itemize}
+\item Establish theoretical optimal benchmark to evaluate SOTA time series classification (TSC) methods (random forest, ROCKET, neural network) for stochastic process; Provide synthetic dataset (Ornstein-Uhlenbeck processes, different potentials, Brownian motion + constant drift, Opinion dynamics) for systematical testing on TSC methods
+\item Develop non-linear extension by adding non-linear feature extraction on ROCKET; Real life application on MIMIC-III Clinical Database to separate different types of pneumonia having similar short-term trend
+\item One paper submitted to Data Mining and Knowledge Discovery \cite{zhang2023benchmarking}; One publications under preparation
+ \end{itemize}
+ 
+% GPR
+{\customcvproject{Uncertainty estimation of transit time distribution in a bi-modal hydrologic response watershed}{}{}}
+Baltimore, MD | Aug. 2021 – Present 
+\begin{itemize}
+\item Disaggregate weekly bulk samples into 6-hourly using Gaussian Process regression; Propagate 28x downscaled input and its 95\% uncertainty bound using Gaussian Process regression which pass hypothesis test at 0.99 level; Propagate downscaled input through fluid transport model
+\item Empower numerical fluid transport model with a multiscale adaptive kernel algorithm; Provide non-parametric estimation of hidden state at flexible local scale by assembling various non-linear statistical inferencing methods; Developed bash pipeline to conduct experiments on high-performance computing grid powered by SLURM; Software publication submitted with 10x smaller cumulative numerical error for 4-yr test dataset \cite{harman2022mesas}
+\item 1st attempt in empowering non-linear numerical fluid transport model with a non-parametric multiscale adaptive kernel algorithm in estimating hidden state and refining estimation using particle MCMC
+\end{itemize}
+ 
+%fill-and-spill
+{\customcvproject{Construct coarse representation of subsurface soil-rock interface}{}
+{}}
+Baltimore, MD | May 2020 – Present
+\begin{itemize}
+  \item Derive effective coarse-scale representation of permeability at subsurface permeability contrast to facilitate demand for detailed data (requires intensive drilling) in previous fill-and-spill modeling
+    \item Test proof-derived anisotropic permeability tensor from realizations generated from virtual truth based on the Richards equation using the ParFlow model
+    \item Developed bash pipeline on high performance computing grid MARCC to process parallel computing tasks for more than 30,000 computational hours
+ \end{itemize}
+
+% MESAS
+{\customcvproject{Bayesian uncertainty quantification on MESAS model}{}
+{}}
+Baltimore, MD | Sep. 2018 – Present
+\begin{itemize}
+\item Improved stream water solute concentration by using data-driven local linear piecewise StorAge Selection (SAS) function to replace a-priori assumption on SAS function with Dr. Ciaran Harman
+\item Proposed Bayesian framework combined with particle MCMC to further improve accuracy of estimation of data-driven method by quantifying uncertainty bound around point estimation
+\item Software publication submitted
+\end{itemize}
+
+% CHEMMA
+{\customcvproject{Advance traditional end-member identification method EMMA}{}
+{}
+}
+Baltimore, MD | May 2018 – May 2021
+\begin{itemize}
+\item Advanced traditional end-member identification method by building unsupervised data-driven model in Python, Convex-Hull End-Member Mixing Analysis (CHEMMA); reduce data annotation 100\%; code available on GitHub
+\item Successfully identified 3 field-measured end-members combining ConvexHull-NMF and constrained Kmeans; Reduce streamwater chemistry variation 6x on each end-members; Achieve same result using 50\% less data
+\item Published one first author publication \cite{xufei} on top 2 Hydrology journal; Model achieved SOTA and is currently under review on invite-only journal
+\end{itemize}
+
+% Bonneville
+{\customcvproject{Data analysis on hydrological connectivity of Bonneville salt flats}{}
+{}
+}
+Baltimore, MD | Oct. 2018 – Dec. 2018
+\begin{itemize}
+  \item Applied Principal Component Analysis (PCA) and Independent Component Analysis (ICA) on remotely sensed dataset (InSAR) of Bonneville salt flat and identified surface deformation
+\end{itemize}
+
+% MS thesis
+{\customcvproject{Statewide groundwater recharge estimation (M.S. Thesis)}{}{}}
+Socorro, NM | Jun. 2016 - Aug. 2018
+\begin{itemize}
+    \item Developed Python-programmed groundwater recharge model to estimate rate and distribution of groundwater recharge for entire state of New Mexico with team of 9; Improved algorithm in giving estimation at karst landscape with error less than 10\%; Cooperated with New Mexico Tech evapotranspiration (ET) research group to improve estimation of ET and total available water in root zone
+    \item Estimated precipitation-runoff relationship by building linear regression model with threshold, and reduced overland flow by 7 times.
+    \item Processed 2T GIS files using Gdal, ArcGIS, and QGIS; Acquired soil physical property data from USDA NRCS soil database STATSGO and SSURGO
+    \item Authored one publication summarizing project as first author (under preparation) and one masters thesis \cite{masterthesis}
+  \end{itemize}
+  
+\section{Awards and Honors}
+\award{M. Gordon Wolman Fellowship}{Aug. 2023 - May 2024}
+\award{Doctoral Leadership Award, JHU EHE}{May 2023}
+\award{Natalie M. Lorenz Anderson Fellowship}{Aug. 2021 - May 2022}
+\award{CUAHSI student travel grant}{Jan. 2019 - Oct. 2019}
+\award{Edwin D. and Rachel Lowthian Endowed Fellowship}{Aug. 2018 - Aug. 2019}
+\award{UC Berkeley workshop scholarship}{May 2019}
+\award{Environmental Health and Engineering Student Organization Travel Grant}{Apr. 2019}
+\award{Lee and Albert H. Halff Doctoral Student Award}{Aug. 2018}
+\award{New Mexico Tech Graduate Student Study Travel Grant}{Sep. 2017}
+\award{New Mexico Tech Honor Roll}{Aug. 2014 - May 2016}
+\award{Durtche Geophysics Award (Best geophysics student of the year)}{May 2016}
+\award{NMGS student Fall Field Conference Scholarship}{Oct. 2015}
+\award{Carlsbad Mineral and Gem Society Award (Best geology student of the year)}{May 2015}
+\award{Best debater in Yangtze University Debate Finals (1/20)}{Mar. 2014}
+\award{Yangtze University Scholarship}{Sep. 2012 - Jun. 2014}
+
+\bibliographystyle{plain}
+\nocite{*}
+\bibliography{publications} 
+
+                              
+\section{Teaching and Mentoring Experiences}
+\subsection{Teaching Assistant}
+\award{Data Analytics in Environmental Health and Engineering}{Jan. 2024 - May 2024}
+\award{Data Analytics in Environmental Health and Engineering}{Jan. 2023 - May 2023}
+\award{Data Analytics in Environmental Health and Engineering}{Jan. 2022 - May 2022}
+\award{Data Analytics in Environmental Health and Engineering}{Jan. 2021 - May 2021}
+\award{Landscape Hydrology and Watershed Analysis}{Jan. 2020 - May 2020}
+\award{Landscape Hydrology and Watershed Analysis}{Aug. 2018 - Dec. 2018}
+\award{Introduction to Fluid Mechanics}{Aug. 2018 - Dec. 2018}
+\subsection{Mentor}
+\award{Graduate student, Sakshi Labhane}{Jun. 2021 - Dec. 2021}
+\award{Undergraduate student, Kayla Ostrow}{Dec. 2019 - Mar. 2020}
+\award{High school student, Julia Alumbro}{Aug. 2019 -  Dec. 2019}
+
+\section{Leadership and Services}
+\subsection{Leadership}
+{\customcventry{}{Cross-Institutional Student Advisory Committee, JHU, Baltimore, MD}{Student representative}{Jan. 2023 - present}{}{}{}}
+
+{\customcventry{}{Graduate Representative Organization (GRO), JHU, Baltimore, MD}{Treasurer}{May. 2022 - Present}{}{}{}}
+
+{\customcventry{}{EHE Student Service Organization (EHESO), JHU, Baltimore, MD}{President}{May 2022 - May 2023}{}{}{}}
+
+{\customcventry{}{EHE Welcome Ceremony, JHU, Baltimore, MD}{Student speaker}{Aug. 2022}{}{}{}}
+
+{\customcventry{}{Astrobiology Graduate Conference (AbGradCon) 2022, Washington, D.C.}{Local conference organizer}{Jun. 2021 - May 2022}{}{}{}}
+
+{\customcventry{}{GRO, JHU, Baltimore, MD}{Secretary}{Aug. 2021 - May 2022}{}{}{}}
+
+{\customcventry{}{EHE Graduation Ceremony, JHU, Baltimore, MD}{Student speaker}{May. 2021}{}{}{}}
+
+{\customcventry{}{EHESO, JHU, Baltimore, MD}{President-elect}{May 2021 - May 2022}{}{}{}}
+
+{\customcventry{}{EHE Graduation Ceremony, JHU, Baltimore, MD}{Student speaker}{May 2021}{}{}{}}
+{\customcventry{}{Landscape Hydrology Lab, JHU, Baltimore, MD}{Lab Assistant}{Aug. 2018 - May 2021}{}{}{}}
+
+{\customcventry{}{EHESO, JHU, Baltimore, MD}{Ph.D. Representative}{Aug. 2020 - May 2021}{}{}{}}
+
+{\customcventry{}{NM Statewide Water Assessment Workshop, Socorro, NM}{Co-host}{Oct. 2016}{}{}{}}
+
+{\customcventry{}{Residential Life, New Mexico Tech, Socorro, NM}{Resident Assistant}{Aug. 2015 - Aug. 2016}{}{}{}}
+
+{\customcventry{}{School Magazine, Yangtze University, Hubei, Wuhan, China}{Chief Editor}{Sep. 2013 - Aug. 2014}{}{}{}}
+
+
+\subsection{Volunteer}
+{\customcventry{}{EHESO, JHU, Baltimore, MD}{Coffee Hour Host}{Dec. 2020}{}{}}
+{\customcventry{}{Magdalena Ridge Observatory, Magdalena, NM}{Science Tour Guide}{Feb. 2015 - May 2015}{}{}}
+
+\section{Presentations}
+\subsection{Oral presentations}
+{\customcvproject{Guess lecturer for Data Analytics, JHU, Baltimore, MD}{| Feb. 2023}
+{}}
+\begin{itemize}
+  \item Covered lectures for linear and non-linear regression, logistic regression, boostrap, cross validation, model selection and regularization
+\end{itemize} 
+{\customcvproject{2022 American Geophysical Union Fall Meeting, Chicago, IL}{| Dec. 2022}
+{}}
+\begin{itemize}
+  \item Dynamic uncertainty quantification of catchment transit time and StorAge Selection distributions using an adaptive non-parametric Bayesian framework 
+\end{itemize} 
+{\customcvproject{2022 Frontiers in Hydrology, San Juan, PR}{| Jun. 2022}
+{}}
+\begin{itemize}
+  \item CHEMMA: a method for estimating end-member source composition from mixture data alone
+\end{itemize} 
+
+{\customcvproject{2021 American Geophysical Union Fall Meeting, New Orleans, LA}{| Dec. 2021}
+{}}
+\begin{itemize}
+  \item Estimating the transit time distribution in a forested watershed with a bimodal hydrologic response using Multi-scale Estimation of StorAge Selection function (MESAS)
+\end{itemize} 
+
+{\customcvproject{JHU Environmental Health and Engineering department seminar, Baltimore, MD}{| Feb. 2021}
+{}}
+\begin{itemize}
+  \item Where does the water in your cup come from?
+\end{itemize}
+{\customcvproject{JHU Environmental Health and Engineering department seminar, Baltimore, MD}{| Nov. 2019}
+{}}
+\begin{itemize}
+  \item  CHEMMA 101: Introduction to Convex Hull End Member Mixing Analysis
+\end{itemize}
+
+{\customcvproject{JHU Environmental Health and Engineering department seminar, Baltimore, MD}{| Sep. 2018}
+{}}
+\begin{itemize}
+  \item Estimation of focused recharge for New Mexico using a soil-water-balance model:
+PyRANA
+\end{itemize}
+
+{\customcvproject{2017 American Geophysical Union Fall Meeting, New Orleans, LA}{| Dec. 2017}
+{}
+}
+\begin{itemize}
+  \item Statewide groundwater recharge modeling in New Mexico
+\end{itemize}
+
+{\customcvproject{NM Statewide Water Assessment Workshop, Socorro, NM}{| Oct. 2016}
+{}
+}
+\begin{itemize}
+  \item Water estimation matters
+\end{itemize}
+
+\subsection{Poster presentations}
+{\customcvproject{2023 American Geophysical Union Fall Meeting}{| Dec. 2023}
+{}
+}
+\begin{itemize}
+  \item SigROCKET: a scalable time series classification algorithm using path signature and random convolution kernel
+  \item An adaptive Bayesian approach for stochastic dynamic system uncertainty quantification with applications to noisy, incomplete, or excessively-smoothed data
+\end{itemize}
+
+{\customcvproject{2020 American Geophysical Union Fall Meeting}{| Dec. 2020}
+{}
+}
+\begin{itemize}
+  \item Can fill-and-spill subsurface flow be represented by a moisture-dependent anisotropic permeability tensor in Richards' equation-based models with coarse spatial resolution?
+\end{itemize}
+
+
+{\customcvproject{2019 American Geophysical Union Fall Meeting}{| Dec. 2019}
+{}
+}
+\begin{itemize}
+  \item Learning from the data: manifold learning in interpreting tracers of the landscape hydrologic system
+\end{itemize}
+
+{\customcvproject{2018 American Geophysical Union Fall Meeting}{| Dec. 2018}
+{}
+}
+\begin{itemize}
+  \item High-resolution statewide groundwater recharge estimation by soil water balance in New Mexico
+\end{itemize}
+
+{\customcvproject{$\mathbf{62^{nd}}$ New Mexico Water Conference}{Aug. 2017}
+{}
+}
+\begin{itemize}
+  \item Efforts on calibration and validation of modeling groundwater recharge in New Mexico
+\end{itemize}
+
+
+{\customcvproject{$\mathbf{61^{st}}$ New Mexico Water Conference}{Oct. 2016}
+{}
+} 
+\begin{itemize}
+  \item Modeling focused recharge through ephemeral streams in New Mexico
+\end{itemize}
+\section{Participated Workshops}
+{\customcventry{}{Princeton University, Princeton, NJ}{Princeton GPU Hackathon 2022}{Jun. 2022}{}{}}
+
+{\customcventry{}{Pennsylvania State University, University Park, PA}{HydroML}{May 2022}{}{}}
+
+{\customcventry{}{University of Arizona, Tucson, AZ}{Advanced short course: integrated simulation of watershed systems using ParFlow}{Oct. 2019}{}{}}
+
+{\customcventry{}{Northwestern University, Evanston, IL}{4th annual Communicating Science Conference in Chicago}{Aug. 2019}{}{}}
+
+{\customcventry{}{Colorado School of Mines, Golden, CO}{Short course: integrated simulation of watershed systems using ParFlow}{May 2019}{}{}}
+
+{\customcventry{}{University of California, Berkeley, Berkeley, CA}{Workshop on critical timescales of hydrologic transport}{May 2019}{}{}}
+
+{\customcventry{}{University of Waterloo, Waterloo, Ontario, CA}{Short course: environmental models and Bayesian methods}{Mar. 2019}{}{}}
+
+{\customcventry{}{Biosphere2, Oracle, AZ}{Master class:
+advanced techniques in watershed science}{Jan. 2019}{}{}}
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+
+
+% Publications from a BibTeX file using the multibib package
+%
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.

@@ -1,0 +1,41 @@
+\begin{thebibliography}{1}
+
+\bibitem{fu2023evaluating}
+Jianyu Fu, Bingjun Liu, Weiguang Wang, and \textbf{Esther} \textbf{Xu Fei}.
+\newblock Evaluating main drivers of runoff changes across china from 1956 to
+  2000 by using different budyko-based elasticity methods.
+\newblock {\em Journal of Environmental Management}, 329:117070, 2023.
+
+\bibitem{fu2022critical}
+Jianyu Fu, Weiguang Wang, Benjamin Zaitchik, Wanshu Nie, \textbf{Esther}
+  \textbf{Xu Fei}, Scot~M Miller, and Ciaran~J Harman.
+\newblock Critical role of irrigation efficiency for cropland expansion in
+  western china arid agroecosystems.
+\newblock {\em Earth's Future}, 10(9):e2022EF002955, 2022.
+
+\bibitem{harman2022mesas}
+Ciaran Harman and \textbf{Esther} \textbf{Xu Fei}.
+\newblock mesas. py v1. 0: A flexible python package for modeling solute
+  transport and transit times using storage selection functions.
+\newblock {\em EGUsphere [preprint]}, pages 1--32, 2022.
+
+\bibitem{masterthesis}
+\textbf{Fei} \textbf{Xu}.
+\newblock {\em Estimation of Focused Recharge for New Mexico Using a
+  Soil-Water-Balance Model: PyRANA}.
+\newblock PhD thesis, 2018.
+
+\bibitem{xufei}
+\textbf{Esther} \textbf{Xu Fei} and Ciaran Harman.
+\newblock A data-driven method for estimating the composition of end-members
+  from stream water chemistry time series.
+\newblock {\em Hydrology and Earth System Sciences}, 26(8):1977--1991, 2022.
+
+\bibitem{zhang2023benchmarking}
+Zehong Zhang, Fei Lu, \textbf{Esther} \textbf{Fei Xu}, Terry Lyons, Yannis
+  Kevrekidis, and Tom Woolf.
+\newblock Benchmarking optimality of time series classification methods in
+  distinguishing diffusions.
+\newblock {\em arXiv preprint arXiv:2301.13112}, 2023.
+
+\end{thebibliography}
