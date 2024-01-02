@@ -40,7 +40,7 @@ def gcdOfStrings(self, str1: str, str2: str) -> str:
 
 ## 605. Can Place Flowers
 
-**Question**: given a bool array `flowerbed` that represents if the `ith` position is planted with a flower, and an integer `n` flowers. Return a boolean value indicating if `n` new flowers can be planted in the `flowerbed` without violating the no-adjacent-flowers rule.
+**Question**: given a binary array `flowerbed` that represents if the `ith` position is planted with a flower, and an integer `n` flowers. Return a boolean value indicating if `n` new flowers can be planted in the `flowerbed` without violating the no-adjacent-flowers rule.
 
 **Solution 1**: Adding `0` to both ends can simplify the edge conditions. Brute force is straight forward: looping through the array and check if `flowerbed[i-1] == flowerbed[i] == flowerbed[i+1] == 0`. Time complexity: `O(n)`. Space complexity: `O(1)`.
 

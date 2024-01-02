@@ -25,3 +25,23 @@
 | 3     | 11   | [Container With Most Water](leetcode_75_2.md#11-container-with-most-water) |
 | 4     | 1679 | [Max Number of K-Sum Pairs](leetcode_75_2.md#1679-max-number-of-k-sum-pairs) | Two Sum
 
+
+## [Sliding Window](leetcode_75_3.md)
+
+A subset of two pointers. Pointers tracks the start and end of a window. The window can be fixed size or expandable.
+
+| No.   | LC # |  Title                                              | Similar question
+| ----- | ---- | -------------------------------------------------- | ---------------- |
+| 1     | 643  | [Maximum Average Subarray I](leetcode_75_3.md#643-maximum-average-subarray-i) | Fixed size sliding window
+| 2     | 1456 | [Maximum Number of Vowels in a Substring of Given Length](leetcode_75_3.md#1456-maximum-number-of-vowels-in-a-substring-of-given-length) | String version of 643
+| 3     | 1004 | [Max Consecutive Ones III](leetcode_75_3.md#1004-max-consecutive-ones-iii) | Expandable sliding window
+| 4     | 1493 | [Longest Subarray of 1's After Deleting One Element](leetcode_75_3.md#1493-longest-subarray-of-1s-after-deleting-one-element) | 1004
+
+
+## [Prefix Sum](leetcode_75_4.md)
+Prefix sum is equivalent to cumulative sum. One tracks current value, one tracks the desired value.
+
+| No.   | LC # |  Title                                              | Similar question
+| ----- | ---- | -------------------------------------------------- | ---------------- |
+| 1     | 1732 | [Find the Highest Altitude](leetcode_75_4.md#1732-find-the-highest-altitude) |
+| 2     | 724  | [Find Pivot Index](leetcode_75_4.md#724-find-pivot-index) | Same as 1991
