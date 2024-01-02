@@ -18,7 +18,7 @@ I am currently a Ph.D. Candidate in Johns Hopkins University. My research intere
 | ----- | ---- |
 | Coding | [LeetCode 75 Study Notes](./Notes/Leetcode75/leetcode_75_summary.md) |
 | Machine Learning | [Machine Learning Frequent Questions](./Notes/ML_FAQ/faq_summary.md) |
-| Machine Learning | [Data Analytics](./Notes/Data%20Analytics/data_analytics_notes.md) |
+| Machine Learning | [Data Analytics](./Notes/Data%20Analytics/da_ehe_summary.md) |
 
 
 
