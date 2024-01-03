@@ -45,3 +45,15 @@ Prefix sum is equivalent to cumulative sum. One tracks current value, one tracks
 | ----- | ---- | -------------------------------------------------- | ---------------- |
 | 1     | 1732 | [Find the Highest Altitude](leetcode_75_4.md#1732-find-the-highest-altitude) |
 | 2     | 724  | [Find Pivot Index](leetcode_75_4.md#724-find-pivot-index) | Same as 1991
+
+
+
+## [Hash Map/Set](leetcode_75_5.md)
+
+| No.   | LC # |  Title                                              | Similar question
+| ----- | ---- | -------------------------------------------------- | ---------------- |
+| 1     | 2215 | [Find the Difference of Two Arrays](leetcode_75_5.md#2215-find-the-difference-of-two-arrays) |
+| 2     | 1207 | [Unique Number of Occurrences](leetcode_75_5.md#1207-unique-number-of-occurrences) |
+| 3     | 1657 | [Determine if Two Strings Are Close](leetcode_75_5.md#1657-determine-if-two-strings-are-close) |
+| 4     | 2352 | [Equal Row and Column Pairs](leetcode_75_5.md#2352-equal-row-and-column-pairs) |
+
