@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 0 "main.aux" "main.bbl" "main" 1704437812
+["bibtex main"] 0 "main.aux" "main.bbl" "main" 1704437827
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "main.aux" 0 -1 0 "pdflatex"
   "publications.bib" 1703404981 4493 8e676b0253db55db3c9327d7425cbc2f ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1704437811 "/Users/esthersida/Estherrrrrxu.github.io/CV/main.tex" "/Users/esthersida/Estherrrrrxu.github.io/CV/main.pdf" "main" 1704437812
-  "/Users/esthersida/Estherrrrrxu.github.io/CV/main.aux" 1704437811 8 a94a2480d3289e625eea47cd1b285758 ""
+["pdflatex"] 1704437826 "/Users/esthersida/Estherrrrrxu.github.io/CV/main.tex" "/Users/esthersida/Estherrrrrxu.github.io/CV/main.pdf" "main" 1704437827
+  "/Users/esthersida/Estherrrrrxu.github.io/CV/main.aux" 1704437826 8 a94a2480d3289e625eea47cd1b285758 ""
   "/Users/esthersida/Estherrrrrxu.github.io/CV/main.tex" 1704317152 21902 fae953ea4d3da111511a8114906b28f8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -213,9 +213,9 @@
   "main.out" 0 -1 0 "pdflatex"
   "main.tex" 1704317152 21902 fae953ea4d3da111511a8114906b28f8 ""
   (generated)
-  "main.aux"
-  "/Users/esthersida/Estherrrrrxu.github.io/CV/main.log"
-  "/Users/esthersida/Estherrrrrxu.github.io/CV/main.pdf"
   "main.log"
   "main.out"
+  "main.aux"
   "main.pdf"
+  "/Users/esthersida/Estherrrrrxu.github.io/CV/main.pdf"
+  "/Users/esthersida/Estherrrrrxu.github.io/CV/main.log"
