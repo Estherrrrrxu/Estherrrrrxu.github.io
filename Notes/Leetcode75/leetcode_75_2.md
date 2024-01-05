@@ -1,6 +1,6 @@
 # Two Pointers
 
-## 283. Move Zeros
+## [283. Move Zeros](https://leetcode.com/problems/move-zeroes/)
 
 **Question**: Given an integer array `nums`, move all `0`'s to the end **in place** while maintaining the relative order of the non-zero elements.
 
@@ -8,7 +8,7 @@
 
 
 
-## 392. Is Subsequence
+## [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 
 **Question**: Given two strings `s` and `t`, check if `s` is a subsequence of `t`.
 
@@ -16,7 +16,7 @@
 
 
 
-## 11. Container With Most Water
+## [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
 **Question**: Given a size `n` array `height` incidicating the height of a bar at each location, find the maximum area of water that can be contained between two bars.
 
@@ -24,7 +24,7 @@
 
 
 
-## 1679. Max Number of K-Sum Pairs
+## [1679. Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)
 
 **Question**: Given an integer array `nums` and an integer `k`, return the number of pairs that sum up to `k`. Note that the pairs cannot overlap.
 

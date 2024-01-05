@@ -1,6 +1,6 @@
 # Array/String
 
-## 1768. Merge Strings Alternately
+## [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 **Question**: given two strings `word1` and `word2`, merge the string by adding letters alternatively from each string, starting from `word1`. Directly append the additional letters to the end if one string is shorter than the other.
 
 **Solution**: Find minimum string length, create an additional result array/string and loop through the minimum string length. Append the rest to the result array/string. Time complexity: `O(n)`. Space complexity: `O(n+m)`.
@@ -9,7 +9,7 @@
 
 
 
-## 1071. Greatest Common Divisor of Strings
+## [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
 **Question**: given two strings `s1` and `s2` and return the largest string `x` such that `x` divides both `s1` and `s2`. Definition: `s2` divides `s1` if `s1 = s2 + ... + s2`.
 
 **Solution**: Observation: if `s1` and `s2` have a common divisor `x`, then `s1 + s2 == s2 + s1`. Then, we can take out the part of string using the gcd length `math.gcd(len(str1), len(str2))`. Otherwise `x` not exists, return `""`. Time complexity: `O(n)`. Space complexity: `O(n)`. Direct implementation of GCD algorithm using recursion to slice down the gcd string. If length of `s1` and `s2` are not equal, keep slicing down the longer string:
@@ -30,7 +30,7 @@ def gcdOfStrings(self, str1: str, str2: str) -> str:
 
 
 
-## 1431. Kids With the Greatest Number of Candies
+## [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
 
 **Question**: given a size `n` array `candies` and an integer `extraCandies`, where `candies[i]` represents the number of candies that the `ith` kid has. Return a boolean array `ans` where `ans[i]` is true if the `ith` kid can have the greatest number of candies among all the kids by adding `extraCandies` candies.
 
@@ -38,7 +38,7 @@ def gcdOfStrings(self, str1: str, str2: str) -> str:
 
 
 
-## 605. Can Place Flowers
+## [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
 
 **Question**: given a binary array `flowerbed` that represents if the `ith` position is planted with a flower, and an integer `n` flowers. Return a boolean value indicating if `n` new flowers can be planted in the `flowerbed` without violating the no-adjacent-flowers rule.
 
@@ -56,7 +56,7 @@ def gcdOfStrings(self, str1: str, str2: str) -> str:
 
 
 
-## 345. Reverse Vowels of a String
+## [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
 
 **Question**: given a string `s`, reverse only all the vowels in the string and return it. The vowels are `'a'`, `'e'`, `'i'`, `'o'`, `'u'`, and they can appear in both cases.
 
@@ -64,7 +64,7 @@ def gcdOfStrings(self, str1: str, str2: str) -> str:
 
 
 
-## 151. Reverse Words in a String
+## [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
 
 **Question**: given an input string `s`, reverse the order of the words. Return a string of the words in reverse order concatenated by a single space.
 
@@ -72,7 +72,7 @@ def gcdOfStrings(self, str1: str, str2: str) -> str:
 
 
 
-## 238. Product of Array Except Self
+## [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 
 **Question**: given an integer array `nums`, return an array `answer` such that `answer[i]` is equal to the product of all the rest elements. 
 
@@ -82,7 +82,7 @@ def gcdOfStrings(self, str1: str, str2: str) -> str:
 
 
 
-## 334. Increasing Triplet Subsequence
+## [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
 
 **Question**: given an integer array `nums`, return `true` if there exists a triple of indices `(i, j, k)` such that `i < j < k` and `nums[i] < nums[j] < nums[k]`. If no such indices exists, return `false`.
 
@@ -103,7 +103,7 @@ def increasingTriplet(self, nums: List[int]) -> bool:
     return False
 ```
 
-## 443. String Compression
+## [443. String Compression](https://leetcode.com/problems/string-compression/)
 
 **Question**: given an array of characters `chars`, compress it by attaching repeated time (> 1) of each character after the character. Directly modify the array and return the length of the compressed array. 
 

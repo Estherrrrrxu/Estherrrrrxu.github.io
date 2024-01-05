@@ -1,6 +1,6 @@
 # Sliding Window
 
-## 643. Maximum Average Subarray I
+## [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
 
 **Question**: Given an integer array `nums` and an integer `k`, find the maximum average value of a continuous subarray of size `k`.
 
@@ -8,7 +8,7 @@
 
 
 
-## 1456. Maximum Number of Vowels in a Substring of Given Length
+## [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
 
 **Question**: Given a string `s` and an integer `k`, return the maximum number of vowel letters in any substring of `s` with length `k`. 
 
@@ -16,7 +16,7 @@
 
 
 
-## 1004. Max Consecutive Ones III
+## [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 
 **Question**: Given a binary array `nums` and an integer `k`, return the maximum number of consecutive 1s in the array if you can flip at most `k` 0s.
 
@@ -40,7 +40,7 @@ def longestOnes(self, nums: List[int], k: int) -> int:
 
 
 
-## 1493. Longest Subarray of 1's After Deleting One Element
+## [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)
 
 **Question**: Return the longest subarray of a binary array `nums` after deleting one `0`.
 

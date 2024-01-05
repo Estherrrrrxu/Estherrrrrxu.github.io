@@ -68,3 +68,16 @@ Stack is a LIFO data structure. It is useful when we need to track the last elem
 | 1     | 2390 | [Removing Stars from a String](leetcode_75_6.md#2390-removing-stars-from-a-string) |
 | 2     | 735  | [Asteroid Collision](leetcode_75_6.md#735-asteroid-collision) | Pair matching problem
 | 3     | 394  | [Decode String](leetcode_75_6.md#394-decode-string) | Recursive problem
+
+
+
+## [Queue](leetcode_75_7.md)
+
+Queue is a FIFO data structure. It is useful when we need to track the first element or the first element that satisfies a condition.
+
+| No.   | LC # |  Title                                              | Similar question
+| ----- | ---- | -------------------------------------------------- | ---------------- |
+| 1     | 933  | [Number of Recent Calls](leetcode_75_7.md#933-number-of-recent-calls) |
+| 2     | 649  | [Dota2 Senate](leetcode_75_7.md#649-dota2-senate) | 
+
+

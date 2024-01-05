@@ -1,6 +1,6 @@
 # Prefix Sum
 
-## 1732. Find the Highest Altitude
+## [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)
 
 **Question**: Given an array `gain` of integers, return the highest cumulative sum of numbers in the array. 
 
@@ -8,7 +8,7 @@
 
 
 
-## 724. Find Pivot Index
+## [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
 
 **Question**: Given an array of integers `nums`, calculate the pivot index of this array. If no such index exists, return `-1`. The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right.
 

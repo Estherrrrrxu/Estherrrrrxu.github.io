@@ -1,6 +1,6 @@
 # Stack
 
-## 2390. Removing Stars from a String
+## [2390. Removing Stars from a String](https://leetcode.com/problems/removing-stars-from-a-string/)
 
 **Question** Given a string `s` contains stars `*`. Remove all stars and the character to its left from `s` and return the new string.
 
@@ -8,7 +8,7 @@
 
 
 
-## 735. Asteroid Collision
+## [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
 
 **Question** Given an array `asteroids` of integers, the magnitude represent size and sign represents direction (positive to the right). Only asteroids with different direction can collide. If two asteroids meet, the smaller one will explode. If both are the same size, both will explode. Return the state of the asteroids after all collisions.
 
@@ -43,7 +43,7 @@ def asteroidCollision(self, asteroids: List[int]) -> List[int]:
 ```
 
 
-## 394. Decode String
+## [394. Decode String](https://leetcode.com/problems/decode-string/)
 
 **Question** Given an encoded string `s`, return the decoded string. The encoding rule is `k[encoded_string]`, which means repeat `encoded_string` `k` times. Note that the brackets can be nested.
 

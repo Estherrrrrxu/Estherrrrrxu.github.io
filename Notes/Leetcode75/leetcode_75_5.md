@@ -1,6 +1,6 @@
 # Hash Map/Set
 
-## 2215. Find the Difference of Two Arrays
+## [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)
 
 **Question**: Given two integer arrays `nums1` and `nums2`, return an array `result` such that `result[0]` is a list of elements only in `nums1` but not in `nums2`, and `result[1]` is a list of elements only in `nums2` but not in `nums1`.
 
@@ -8,7 +8,7 @@
 
 
 
-## 1207. Unique Number of Occurrences
+## [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
 
 **Question**: Given an array of integers `arr`, write a function that returns `true` if and only if the number of occurrences of each value in the array is unique.
 
@@ -23,7 +23,7 @@ def uniqueOccurrences(self, arr: List[int]) -> bool:
 
 
 
-## 1657. Determine if Two Strings Are Close
+## [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)
 
 **Question**: Given two strings `word1` and `word2`, return `true` if you can make both strings equal by swapping any two characters or interchange two characters. Otherwise, return `false`.
 
@@ -54,7 +54,7 @@ def closeStrings(self, word1: str, word2: str) -> bool:
 
 
 
-## 2352. Equal Row and Column Pairs
+## [2352. Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)
 
 **Question**: Given a `n x n` matrix `grid`, return the number of all pairs of row and column indices `(row, col)` such that `grid[row,:] == grid[:,col]`.
 

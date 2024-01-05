@@ -12,6 +12,16 @@ I am currently a Ph.D. Candidate in Johns Hopkins University. My research intere
 - Uncertainty quantification framework using particle MCMC
 - Source (end-member) identification
 
+## Journal Manuscript Reviewer
+
+| Journal | Number of Reviews |
+| ------- | ----------------- |
+| Water Resources Research | 3 |
+| Geoscitific Model Development | 3 |
+| Geophysical Research Letters | 1 |
+| Field Crops Research | 1 |
+
+
 ## Machine Learning/Data Science Notes Sharing
 
 | Topic | Link |
