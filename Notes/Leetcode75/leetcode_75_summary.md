@@ -57,3 +57,14 @@ Prefix sum is equivalent to cumulative sum. One tracks current value, one tracks
 | 3     | 1657 | [Determine if Two Strings Are Close](leetcode_75_5.md#1657-determine-if-two-strings-are-close) |
 | 4     | 2352 | [Equal Row and Column Pairs](leetcode_75_5.md#2352-equal-row-and-column-pairs) |
 
+
+
+## [Stack](leetcode_75_6.md)
+
+Stack is a LIFO data structure. It is useful when we need to track the last element or the last element that satisfies a condition.
+
+| No.   | LC # |  Title                                              | Similar question
+| ----- | ---- | -------------------------------------------------- | ---------------- |
+| 1     | 2390 | [Removing Stars from a String](leetcode_75_6.md#2390-removing-stars-from-a-string) |
+| 2     | 735  | [Asteroid Collision](leetcode_75_6.md#735-asteroid-collision) | Pair matching problem
+| 3     | 394  | [Decode String](leetcode_75_6.md#394-decode-string) | Recursive problem
