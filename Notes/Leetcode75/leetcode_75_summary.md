@@ -81,3 +81,11 @@ Queue is a FIFO data structure. It is useful when we need to track the first ele
 | 2     | 649  | [Dota2 Senate](leetcode_75_7.md#649-dota2-senate) | 
 
 
+## [Linked List](leetcode_75_8.md)
+
+| No.   | LC # |  Title                                              | Similar question
+| ----- | ---- | -------------------------------------------------- | ---------------- |
+| 1     | 206  | [Reverse Linked List](leetcode_75_8.md#206-reverse-linked-list) |
+| 2     | 2130 | [Maximum Twin Sum of a Linked List](leetcode_75_8.md#2130-maximum-twin-sum-of-a-linked-list) |
+| 3     | 876  | [Middle of the Linked List](leetcode_75_8.md#876-middle-of-the-linked-list) |
+| 4     | 141  | [Linked List Cycle](leetcode_75_8.md#141-linked-list-cycle) | 876
