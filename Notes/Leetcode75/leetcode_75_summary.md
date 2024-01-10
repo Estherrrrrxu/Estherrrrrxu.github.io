@@ -89,3 +89,31 @@ Queue is a FIFO data structure. It is useful when we need to track the first ele
 | 2     | 2130 | [Maximum Twin Sum of a Linked List](leetcode_75_8.md#2130-maximum-twin-sum-of-a-linked-list) |
 | 3     | 876  | [Middle of the Linked List](leetcode_75_8.md#876-middle-of-the-linked-list) |
 | 4     | 141  | [Linked List Cycle](leetcode_75_8.md#141-linked-list-cycle) | 876
+
+
+## [Binary Tree](leetcode_75_9.md)
+
+[A short summary of binary tree traversal.](leetcode_75_9_p.md)
+
+### DFS
+| No.   | LC # |  Title                                              | Similar question
+| ----- | ---- | -------------------------------------------------- | ---------------- |
+| 1     | 104  | [Maximum Depth of Binary Tree](leetcode_75_9.md#104-maximum-depth-of-binary-tree) |
+| 2     | 872  | [Leaf-Similar Trees](leetcode_75_9.md#872-leaf-similar-trees) |
+| 3     | 1448 | [Count Good Nodes in Binary Tree](leetcode_75_9.md#1448-count-good-nodes-in-binary-tree) |
+| 4     | 1991 | [Find the Middle Index in Array](leetcode_75_9.md#1991-find-the-middle-index-in-array) | Also a prefix sum problem
+| 5     | 1372 | [Longest ZigZag Path in a Binary Tree](leetcode_75_9.md#1372-longest-zigzag-path-in-a-binary-tree) |
+| 6     | 236  | [Lowest Common Ancestor of a Binary Tree](leetcode_75_9.md#236-lowest-common-ancestor-of-a-binary-tree) | 
+
+
+### BFS
+| No.   | LC # |  Title                                              | Similar question
+| ----- | ---- | -------------------------------------------------- | ---------------- |
+| 1     | 199  | [Binary Tree Right Side View](leetcode_75_9.md#199-binary-tree-right-side-view) |
+| 2     | 1161 | [Maximum Level Sum of a Binary Tree](leetcode_75_9.md#1161-maximum-level-sum-of-a-binary-tree) |
+
+### Binary Search Tree
+| No.   | LC # |  Title                                              | Similar question
+| ----- | ---- | -------------------------------------------------- | ---------------- |
+| 1     | 700  | [Search in a Binary Search Tree](leetcode_75_9.md#700-search-in-a-binary-search-tree) |
+| 2     | 450  | [Delete Node in a BST](leetcode_75_9.md#450-delete-node-in-a-bst) |

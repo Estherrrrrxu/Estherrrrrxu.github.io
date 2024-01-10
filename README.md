@@ -16,8 +16,8 @@ I am currently a Ph.D. Candidate in Johns Hopkins University. My research intere
 
 | Journal | Number of Reviews |
 | ------- | ----------------- |
+| Geoscientific Model Development | 4 |
 | Water Resources Research | 3 |
-| Geoscitific Model Development | 3 |
 | Geophysical Research Letters | 1 |
 | Field Crops Research | 1 |
 
