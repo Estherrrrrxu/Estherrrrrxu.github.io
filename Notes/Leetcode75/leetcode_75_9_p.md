@@ -6,6 +6,7 @@ The following figure shows the relationship between different tree methods.
 Common tree traversal methods are shown below.
 ![Tree Traversal Methods](TreeTraverse.png)
 
+Note that inorder traversal of a BST gives the nodes in ascending order. 
 
 ## DFS - Preorder
 [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)

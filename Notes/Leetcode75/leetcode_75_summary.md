@@ -101,9 +101,10 @@ Queue is a FIFO data structure. It is useful when we need to track the first ele
 | 1     | 104  | [Maximum Depth of Binary Tree](leetcode_75_9.md#104-maximum-depth-of-binary-tree) |
 | 2     | 872  | [Leaf-Similar Trees](leetcode_75_9.md#872-leaf-similar-trees) |
 | 3     | 1448 | [Count Good Nodes in Binary Tree](leetcode_75_9.md#1448-count-good-nodes-in-binary-tree) |
-| 4     | 1991 | [Find the Middle Index in Array](leetcode_75_9.md#1991-find-the-middle-index-in-array) | Also a prefix sum problem
+| 4     | 437  | [Path Sum III](leetcode_75_9.md#437-path-sum-iii) | [Path Sum](../lc_classics/path_sum.md)
 | 5     | 1372 | [Longest ZigZag Path in a Binary Tree](leetcode_75_9.md#1372-longest-zigzag-path-in-a-binary-tree) |
 | 6     | 236  | [Lowest Common Ancestor of a Binary Tree](leetcode_75_9.md#236-lowest-common-ancestor-of-a-binary-tree) | 
+
 
 
 ### BFS
