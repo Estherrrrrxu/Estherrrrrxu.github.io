@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 0 "main.aux" "main.bbl" "main" 1704437944
+["bibtex main"] 0 "main.aux" "main.bbl" "main" 1705951047
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "main.aux" 0 -1 0 "pdflatex"
-  "publications.bib" 1703404981 4493 8e676b0253db55db3c9327d7425cbc2f ""
+  "publications.bib" 1705948869 4595 77a40bb9093e882a0742d1136cfb1004 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1704437943 "/Users/esthersida/Estherrrrrxu.github.io/CV/main.tex" "/Users/esthersida/Estherrrrrxu.github.io/CV/main.pdf" "main" 1704437944
-  "/Users/esthersida/Estherrrrrxu.github.io/CV/main.aux" 1704437943 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/esthersida/Estherrrrrxu.github.io/CV/main.tex" 1704317152 21902 fae953ea4d3da111511a8114906b28f8 ""
+["pdflatex"] 1705951046 "/Users/esthersida/Estherrrrrxu.github.io/CV/main.tex" "/Users/esthersida/Estherrrrrxu.github.io/CV/main.pdf" "main" 1705951047
+  "/Users/esthersida/Estherrrrrxu.github.io/CV/main.aux" 1705951046 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/esthersida/Estherrrrrxu.github.io/CV/main.tex" 1705951046 23089 0a491655552e033a3051c1b0a7c9361e ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -209,13 +209,13 @@
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1637679418 2724742 a4eb34f87ce510246cf9537ba89244f2 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "main.aux" 0 -1 0 "pdflatex"
-  "main.bbl" 1703404140 1705 7472303ff818e6ff5c05abcbcaeecc37 "bibtex main"
+  "main.bbl" 1705948873 1717 daa349b003f58d25266e1bc142f7510e "bibtex main"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1704317152 21902 fae953ea4d3da111511a8114906b28f8 ""
+  "main.tex" 1705951046 23089 0a491655552e033a3051c1b0a7c9361e ""
   (generated)
-  "/Users/esthersida/Estherrrrrxu.github.io/CV/main.pdf"
-  "main.aux"
-  "main.log"
   "/Users/esthersida/Estherrrrrxu.github.io/CV/main.log"
   "main.out"
+  "/Users/esthersida/Estherrrrrxu.github.io/CV/main.pdf"
   "main.pdf"
+  "main.aux"
+  "main.log"

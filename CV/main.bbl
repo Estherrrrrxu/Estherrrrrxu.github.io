@@ -15,9 +15,9 @@ Jianyu Fu, Weiguang Wang, Benjamin Zaitchik, Wanshu Nie, \textbf{Esther}
 
 \bibitem{harman2022mesas}
 Ciaran Harman and \textbf{Esther} \textbf{Xu Fei}.
-\newblock mesas. py v1. 0: A flexible python package for modeling solute
+\newblock mesas.py v1.0: a flexible python package for modeling solute
   transport and transit times using storage selection functions.
-\newblock {\em EGUsphere [preprint]}, pages 1--32, 2022.
+\newblock {\em Geoscientific Model Development}, 17(2):477--495, 2024.
 
 \bibitem{masterthesis}
 \textbf{Fei} \textbf{Xu}.
@@ -32,7 +32,7 @@ Ciaran Harman and \textbf{Esther} \textbf{Xu Fei}.
 \newblock {\em Hydrology and Earth System Sciences}, 26(8):1977--1991, 2022.
 
 \bibitem{zhang2023benchmarking}
-Zehong Zhang, Fei Lu, \textbf{Esther} \textbf{Fei Xu}, Terry Lyons, Yannis
+Zehong Zhang, Fei Lu, \textbf{Esther} \textbf{Xu Fei}, Terry Lyons, Yannis
   Kevrekidis, and Tom Woolf.
 \newblock Benchmarking optimality of time series classification methods in
   distinguishing diffusions.

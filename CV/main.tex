@@ -123,6 +123,8 @@
 \makecvtitle
 \vspace*{-18mm}
 
+
+
 \begin{center}
 \begin{tabular}{ c c c c }
  \faEnvelopeO\enspace estherxu@jhu.edu &  \faMobile\enspace 443-714-9400 &  \faLinkedinSquare\enspace  \href{https://www.linkedin.com/in/estherxufei/}{estherxufei} & \faGithub\enspace \href{https://github.com/Estherrrrrxu}{Estherrrrrxu} \\  
@@ -183,70 +185,94 @@ Socorro, NM | GPA: 3.91 / 4.00
 }
 Seattle, WA | May 2023 – Aug. 2023
 \begin{itemize}
-\item To be added
+\item Identified 5 distinct personas from high dimensional dataset of 400k+ customers and 2k+ features using PySpark
+\item Incorporated continuous business metrics into an automated and interpretable personalization framework, overseeing the coordination of various functional components, including dimensionality reduction (UFS), high-dimensional data transformation, and latent archetype space construction (WoE, VAE), clustering (IHC-KNN)
+\item Designed prompt in-context learning system to enhance interpretability of personalization pipeline
+\item Utilized AWS SageMaker and EC2 to serve large language models, Falcon-40B and Llama-2-7B
+\item Collaborated with diverse team of PM, scientists, SDEs and Data Engineers from various geographical regions
+\item Publication under preparation
+
  \end{itemize}
 % ==============================================
 \section{Research Projects}
-
-
-
-
-% GPR
-{\customcvproject{Theoretical optimal benchmarking in time series classification}{}{}}
-Baltimore, MD | May 2022 – Present
+ 
+% Curtis Bay
+{\customcvproject{Automatic air quality monitoring at Curtis Bay}{}{}}
+Baltimore, MD | Oct. 2023 - Present
 \begin{itemize}
-\item Establish theoretical optimal benchmark to evaluate SOTA time series classification (TSC) methods (random forest, ROCKET, neural network) for stochastic process; Provide synthetic dataset (Ornstein-Uhlenbeck processes, different potentials, Brownian motion + constant drift, Opinion dynamics) for systematical testing on TSC methods
-\item Develop non-linear extension by adding non-linear feature extraction on ROCKET; Real life application on MIMIC-III Clinical Database to separate different types of pneumonia having similar short-term trend
-\item One paper submitted to Data Mining and Knowledge Discovery \cite{zhang2023benchmarking}; One publications under preparation
+\item Automatic picture labeling using optical character recognition (OCR) and image processing
  \end{itemize}
+
+ % SigROCKET
+{\customcvproject{SigROCKET: a scalable time series classification method}{}{}}
+Baltimore, MD | Mar. 2023 - Present
+\begin{itemize}
+\item Combing non-linear feature extraction method, Signature, with Multi-ROCKET to build a scalable time series classification algorithm
+\item Scalable algorithm for long multivariate time series with SoTA classification AUC performance up to 35\% increase and 100x faster, by combining signature transformation with ROCKET
+\item Publication under preparation
+\end{itemize}
+
  
 % GPR
 {\customcvproject{Uncertainty estimation of transit time distribution in a bi-modal hydrologic response watershed}{}{}}
-Baltimore, MD | Aug. 2021 – Present 
+Baltimore, MD | Aug. 2021 - Present 
 \begin{itemize}
 \item Disaggregate weekly bulk samples into 6-hourly using Gaussian Process regression; Propagate 28x downscaled input and its 95\% uncertainty bound using Gaussian Process regression which pass hypothesis test at 0.99 level; Propagate downscaled input through fluid transport model
-\item Empower numerical fluid transport model with a multiscale adaptive kernel algorithm; Provide non-parametric estimation of hidden state at flexible local scale by assembling various non-linear statistical inferencing methods; Developed bash pipeline to conduct experiments on high-performance computing grid powered by SLURM; Software publication submitted with 10x smaller cumulative numerical error for 4-yr test dataset \cite{harman2022mesas}
-\item 1st attempt in empowering non-linear numerical fluid transport model with a non-parametric multiscale adaptive kernel algorithm in estimating hidden state and refining estimation using particle MCMC
 \end{itemize}
+
+% MESAS
+{\customcvproject{Bayesian uncertainty quantification on MESAS model}{}
+{}}
+Baltimore, MD | Sep. 2018 - Present
+\begin{itemize}
+\item Improved stream water solute concentration by using data-driven local linear piecewise StorAge Selection (SAS) function to replace a-priori assumption on SAS function
+\item Empower numerical fluid transport model with a multiscale adaptive kernel algorithm; Provide non-parametric estimation of hidden state at flexible local scale by assembling various non-linear statistical inferencing methods; Developed bash pipeline to conduct experiments on high-performance computing grid powered by SLURM; Software publication submitted with 10x smaller cumulative numerical error for 4-yr test dataset \cite{harman2022mesas}
+\item Developed particle MCMC framework for propagating input and output uncertainty, enabling informed risk control through accurate inference about structure of complex dynamic systems
+\item Simultaneous uncertainty quantification on multiple sources: input/output time series and black-box model structure
+
+
+\end{itemize}
+
  
 %fill-and-spill
 {\customcvproject{Construct coarse representation of subsurface soil-rock interface}{}
 {}}
-Baltimore, MD | May 2020 – Present
+Baltimore, MD | May 2020 - Feb.2024
 \begin{itemize}
   \item Derive effective coarse-scale representation of permeability at subsurface permeability contrast to facilitate demand for detailed data (requires intensive drilling) in previous fill-and-spill modeling
     \item Test proof-derived anisotropic permeability tensor from realizations generated from virtual truth based on the Richards equation using the ParFlow model
     \item Developed bash pipeline on high performance computing grid MARCC to process parallel computing tasks for more than 30,000 computational hours
  \end{itemize}
 
-% MESAS
-{\customcvproject{Bayesian uncertainty quantification on MESAS model}{}
-{}}
-Baltimore, MD | Sep. 2018 – Present
+ % Optimal benchmarking
+{\customcvproject{Theoretical optimal benchmarking in time series classiﬁcation}{}{}}
+Baltimore, MD | May 2022  - Feb. 2023
 \begin{itemize}
-\item Improved stream water solute concentration by using data-driven local linear piecewise StorAge Selection (SAS) function to replace a-priori assumption on SAS function with Dr. Ciaran Harman
-\item Proposed Bayesian framework combined with particle MCMC to further improve accuracy of estimation of data-driven method by quantifying uncertainty bound around point estimation
-\item Software publication submitted
-\end{itemize}
+\item Establish theoretical optimal benchmark to evaluate SOTA time series classification (TSC) methods (random forest, ROCKET, neural network) for stochastic process
+\item Provide synthetic dataset (Ornstein-Uhlenbeck processes, different potentials, Brownian motion + constant drift, Opinion dynamics) for systematical testing on TSC methods
+\item Preprint paper \cite{zhang2023benchmarking}
+ \end{itemize}
 
 % CHEMMA
-{\customcvproject{Advance traditional end-member identification method EMMA}{}
+{\customcvproject{Novel end-member identification model, CHEMMA}{}
 {}
 }
-Baltimore, MD | May 2018 – May 2021
+Baltimore, MD | May 2018 - May 2021
 \begin{itemize}
-\item Advanced traditional end-member identification method by building unsupervised data-driven model in Python, Convex-Hull End-Member Mixing Analysis (CHEMMA); reduce data annotation 100\%; code available on GitHub
+\item Advanced traditional end-member identification method by building unsupervised data-driven model in Python, Convex-Hull End-Member Mixing Analysis (CHEMMA) by reducing data annotation 100\%
 \item Successfully identified 3 field-measured end-members combining ConvexHull-NMF and constrained Kmeans; Reduce streamwater chemistry variation 6x on each end-members; Achieve same result using 50\% less data
-\item Published one first author publication \cite{xufei} on top 2 Hydrology journal; Model achieved SOTA and is currently under review on invite-only journal
+\item Published one first author publication \cite{xufei} on Hydrology and Earth System Sciences; Model is recognized as SOTA on invited review paper 
+
+\item Code publicly available on \href{https://github.com/Estherrrrrxu/CHEMMA}{\underline{GitHub}}
 \end{itemize}
 
 % Bonneville
 {\customcvproject{Data analysis on hydrological connectivity of Bonneville salt flats}{}
 {}
 }
-Baltimore, MD | Oct. 2018 – Dec. 2018
+Baltimore, MD | Oct. 2018 - Dec. 2018
 \begin{itemize}
-  \item Applied Principal Component Analysis (PCA) and Independent Component Analysis (ICA) on remotely sensed dataset (InSAR) of Bonneville salt flat and identified surface deformation
+  \item Identified surface deformation through Principal Component Analysis (PCA) and Independent Component Analysis (ICA) on remotely sensed dataset (InSAR) of Bonneville salt flat
 \end{itemize}
 
 % MS thesis
