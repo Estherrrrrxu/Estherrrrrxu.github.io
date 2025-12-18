@@ -1,6 +1,6 @@
 ## About
 
-I am an Applied Scientist at Amazon, working on machine learning and causal inference to improve customer experience. I earned my Ph.D. in Physical Hydrology from Johns Hopkins University in 2024, where I specialized in time series classification, uncertainty quantification, and stochastic modeling of hydrological systems.
+I am an Applied Scientist at Amazon, working on Generative AI, machine learning, and causal inference to improve customer experience. I earned my Ph.D. in Physical Hydrology from Johns Hopkins University in 2025, where I specialized in time series classification, uncertainty quantification, and stochastic modeling of hydrological systems.
 
 My research bridges applied physics, statistics, and machine learning, with expertise in modeling complex dynamic systems. I develop data-driven approaches for understanding and predicting behavior in both natural and engineered systems, from watershed dynamics to large-scale customer analytics.
 
@@ -15,31 +15,35 @@ My research bridges applied physics, statistics, and machine learning, with expe
 
 ## Selected Publications
 
-**Harman, C.** and **Xu Fei, E.** (2024). mesas.py v1.0: a flexible Python package for modeling solute transport and transit times using StorAge Selection functions. _Geoscientific Model Development_, 17(2), 477–495. [https://doi.org/10.5194/gmd-17-477-2024](https://doi.org/10.5194/gmd-17-477-2024)
+Popp, A. L., Beria, H., et al. including **Xu Fei, E.** and Harman, C. (2025). Recent advances in tracer-aided mixing modeling of water in the Critical Zone. _Reviews of Geophysics_, 63(3), e2024RG000866.
 
-**Xu Fei, E.** and **Harman, C.** (2022). A data-driven method for estimating the composition of end-members from stream water chemistry time series. _Hydrology and Earth System Sciences_, 26(8), 1977–1991. [Code on GitHub](https://github.com/Estherrrrrxu/CHEMMA)
+Harman, C. and **Xu Fei, E.** (2024). mesas.py v1.0: a flexible Python package for modeling solute transport and transit times using StorAge Selection functions. _Geoscientific Model Development_, 17(2), 477–495. [https://doi.org/10.5194/gmd-17-477-2024](https://doi.org/10.5194/gmd-17-477-2024)
 
-**Zhang, Z., Lu, F., Xu Fei, E., Lyons, T., Kevrekidis, Y., and Woolf, T.** (2023). Benchmarking optimality of time series classification methods in distinguishing diffusions. _arXiv preprint arXiv:2301.13112_
+**Xu Fei, E.** and Harman, C. (2022). A data-driven method for estimating the composition of end-members from stream water chemistry time series. _Hydrology and Earth System Sciences_, 26(8), 1977–1991. [Code on GitHub](https://github.com/Estherrrrrxu/CHEMMA)
+
 
 [Full publication list](./CV/main.pdf)
 
 ---
 
 ## News
+**2025**
+- Graduated with my PhD
+- Published a paper
 
 **2024**
-- Joined Amazon as Applied Scientist III (Feb 2024)
+- Joined Amazon as Applied Scientist
 - Published mesas.py v1.0 in Geoscientific Model Development
 
 **2023**
 - Awarded M. Gordon Wolman Fellowship
 - Summer internship as Applied Scientist at Amazon
 - Presented SigROCKET at AGU Fall Meeting
+- Presented stochastic MESAS at AGU Fall Meeting
+- Convene a conference session at AGU Fall Meeting
 
 **2022**
 - Published first-author paper in Hydrology and Earth System Sciences
-- Organized Astrobiology Graduate Conference (AbGradCon)
-- Received Doctoral Leadership Award from JHU
 
 ---
 
@@ -54,4 +58,4 @@ My research bridges applied physics, statistics, and machine learning, with expe
 
 ---
 
-_Last updated: December 2024_
+_Last updated: December 2025_
