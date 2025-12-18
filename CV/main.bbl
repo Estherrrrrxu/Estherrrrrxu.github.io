@@ -1,41 +1,55 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem{fu2023evaluating}
-Jianyu Fu, Bingjun Liu, Weiguang Wang, and \textbf{Esther} \textbf{Xu Fei}.
-\newblock Evaluating main drivers of runoff changes across china from 1956 to
-  2000 by using different budyko-based elasticity methods.
-\newblock {\em Journal of Environmental Management}, 329:117070, 2023.
-
-\bibitem{fu2022critical}
-Jianyu Fu, Weiguang Wang, Benjamin Zaitchik, Wanshu Nie, \textbf{Esther}
-  \textbf{Xu Fei}, Scot~M Miller, and Ciaran~J Harman.
-\newblock Critical role of irrigation efficiency for cropland expansion in
-  western china arid agroecosystems.
-\newblock {\em Earth's Future}, 10(9):e2022EF002955, 2022.
-
-\bibitem{harman2022mesas}
+\bibitem[Harman and \textbf{Xu Fei}(2024)]{harman2022mesas}
 Ciaran Harman and \textbf{Esther} \textbf{Xu Fei}.
 \newblock mesas.py v1.0: a flexible python package for modeling solute
   transport and transit times using storage selection functions.
-\newblock {\em Geoscientific Model Development}, 17(2):477--495, 2024.
+\newblock \emph{Geoscientific Model Development}, 17\penalty0 (2):\penalty0
+  477--495, 2024.
+\newblock \doi{10.5194/gmd-17-477-2024}.
+\newblock URL \url{https://gmd.copernicus.org/articles/17/477/2024/}.
 
-\bibitem{masterthesis}
-\textbf{Fei} \textbf{Xu}.
-\newblock {\em Estimation of Focused Recharge for New Mexico Using a
-  Soil-Water-Balance Model: PyRANA}.
-\newblock PhD thesis, 2018.
-
-\bibitem{xufei}
-\textbf{Esther} \textbf{Xu Fei} and Ciaran Harman.
-\newblock A data-driven method for estimating the composition of end-members
-  from stream water chemistry time series.
-\newblock {\em Hydrology and Earth System Sciences}, 26(8):1977--1991, 2022.
-
-\bibitem{zhang2023benchmarking}
+\bibitem[Zhang et~al.(2023)Zhang, Lu, \textbf{Xu Fei}, Lyons, Kevrekidis, and
+  Woolf]{zhang2023benchmarking}
 Zehong Zhang, Fei Lu, \textbf{Esther} \textbf{Xu Fei}, Terry Lyons, Yannis
   Kevrekidis, and Tom Woolf.
 \newblock Benchmarking optimality of time series classification methods in
   distinguishing diffusions.
-\newblock {\em arXiv preprint arXiv:2301.13112}, 2023.
+\newblock \emph{arXiv preprint arXiv:2301.13112}, 2023.
+
+\bibitem[Fu et~al.(2023)Fu, Liu, Wang, and \textbf{Xu Fei}]{fu2023evaluating}
+Jianyu Fu, Bingjun Liu, Weiguang Wang, and \textbf{Esther} \textbf{Xu Fei}.
+\newblock Evaluating main drivers of runoff changes across china from 1956 to
+  2000 by using different budyko-based elasticity methods.
+\newblock \emph{Journal of Environmental Management}, 329:\penalty0 117070,
+  2023.
+
+\bibitem[\textbf{Xu Fei} and Harman(2022)]{xufei}
+\textbf{Esther} \textbf{Xu Fei} and Ciaran Harman.
+\newblock A data-driven method for estimating the composition of end-members
+  from stream water chemistry time series.
+\newblock \emph{Hydrology and Earth System Sciences}, 26\penalty0 (8):\penalty0
+  1977--1991, 2022.
+
+\bibitem[Fu et~al.(2022)Fu, Wang, Zaitchik, Nie, \textbf{Xu Fei}, Miller, and
+  Harman]{fu2022critical}
+Jianyu Fu, Weiguang Wang, Benjamin Zaitchik, Wanshu Nie, \textbf{Esther}
+  \textbf{Xu Fei}, Scot~M Miller, and Ciaran~J Harman.
+\newblock Critical role of irrigation efficiency for cropland expansion in
+  western china arid agroecosystems.
+\newblock \emph{Earth's Future}, 10\penalty0 (9):\penalty0 e2022EF002955, 2022.
+
+\bibitem[\textbf{Xu}(2018)]{masterthesis}
+\textbf{Fei} \textbf{Xu}.
+\newblock \emph{Estimation of Focused Recharge for New Mexico Using a
+  Soil-Water-Balance Model: PyRANA}.
+\newblock PhD thesis, 2018.
+\newblock URL
+  \url{https://www.proquest.com/dissertations-theses/estimation-focused-recharge-new-mexico-using-soil/docview/2093745891/se-2}.
 
 \end{thebibliography}
