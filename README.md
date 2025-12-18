@@ -1,12 +1,3 @@
-# Esther XU FEI
-
-**Applied Scientist III, Amazon.com, Inc.**
-Seattle, WA
-
-[CV](./CV/main.pdf) | [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID) | [GitHub](https://github.com/Estherrrrrxu) | [LinkedIn](https://www.linkedin.com/in/estherxufei/)
-
----
-
 ## About
 
 I am an Applied Scientist at Amazon, working on machine learning and causal inference to improve customer experience. I earned my Ph.D. in Physical Hydrology from Johns Hopkins University in 2024, where I specialized in time series classification, uncertainty quantification, and stochastic modeling of hydrological systems.
